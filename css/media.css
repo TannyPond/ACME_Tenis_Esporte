@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 300px){
+    
+    }
+@media screen and (max-width: 1200px){
+    
+    }
+
+@media screen and (max-width: 550px){
+    .acessivel{
+        display: flex;
+        flex-wrap: wrap;
+        padding:5px;
+    }
+
+    .acessivel > div{
+        margin: 5px 0 10px 0;
+    }
+
+    #logo{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .menu{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .menu li{
+        margin: 5px 2px;
+    }
+
+    #produtos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    main figure > img{
+        display: flex;
+        margin: 20px;
+    }
+
+    #produtos figure > figcaption{
+        margin-bottom: 30px;
+    }
+
+    .galeria > div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .galeria div > img{
+        margin: 0 10px 10px 10px;
+    }
+
+    .galeria div > figcaption{
+        width: 100%;
+        margin: 0 10px 10px 10px;
+    }
+
+    .grupo{
+        display: flex;
+        flex-wrap: wrap;
+        order: initial;
+    }
+
+    .grupo figure{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .grupo figure > img, figcaption{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #resumo{
+        order: 2;
+        width: 100%;
+    }
+
+    form fieldset>legend{
+		fonti-size: 16px;
+        font-size: 1rem;
+    }
+
+    .field{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        padding: 30px;
+    }
+
+    input[type="text"], textarea{
+        width: 100%;
+    }
+
+    #servicos>div{
+        width: 100%;
+    }
+
+    .principal h2{
+        width: 95%;
+    }
+
+    .sub h3{
+        width: 50%;
+        margin-left: 50px;
+    }
+}

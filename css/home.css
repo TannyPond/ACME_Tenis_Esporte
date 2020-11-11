@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #002e2c;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#servicos > h2{
+    margin: 20px;
+}
+
+#servicos div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloco{
+    padding: 10px;
+    width: 40%;
+}
+
+.bloco h3{
+    background-color:  #498467;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}

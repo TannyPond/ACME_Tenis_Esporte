@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 1rem;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: #498467;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+img{
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+a:hover{
+    background-color: #498467;
+    color: #ffffff
+}
+
+p{
+    font-size: 1rem;
+    line-height: 25px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+address{
+    font-size: 1rem;
+    line-height: 18px;;
+}
+
+
+.acessivel{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 10px 10px 10px;
+    background-color: #498467;
+    
+}
+
+.acessivel > div a{
+    padding: 15px 30px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+
+.acessivel > div{
+    margin: 5px;
+}
+
+#javasc > em{
+    font-style: normal;
+    font-size: 0.875rem;
+    color: #ffffff;
+}
+
+#javasc a > img{
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    border-radius: 5px;
+    color:#498467;
+    border: none;
+}
+
+#topo > div a:hover{
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    background-color: #498467;
+}
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+	border-radius: 10px;
+}
+
+#logo{
+    max-width: 500px;
+    display: block;
+    padding: 10px 50px;
+    width: 300px;
+    border: none;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 20px 0px 10px;
+}
+
+.menu li{
+    background-color: #498467;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.menu a{
+    display: block;
+    padding: 5px 30px 5px 30px;
+    font-size: 16px;
+	color:#0D0D0D;
+}
+
+.menu a:hover{
+    padding: 5px 30px 5px 30px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    color: #002e2c;
+}
+
+h1{
+    display:  block;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    font-size: 1.75rem;
+	color:#ffffff;
+}
+
+h2{
+    font-size: 24px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color:#002e2c;
+    flex: 0 0 90%;
+    margin:  0 0 10px 0;
+    background-color:#498467;
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 0px 5px 0px;
+    text-align: left;
+	color: #000000;
+}
+
+/*social media*/
+.icon-bar {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+
+.icon-bar a{
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #498467;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.icon-bar a>img{
+    width: 20px;
+    border: none;
+}
+
+.facebook:hover {
+  background: #3B5998;
+}
+
+.whatsapp:hover {
+  background: #25d366;
+}
+  
+.instagram:hover {
+  background: #c32aa3;
+}
+  
+  
+
+/*conteudo, body*/
+body{
+    background-color: #ffffff;
+}
+
+.cabecalho{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  
+    border-radius: 5px;
+}
+
+#conteudo{
+    margin: 10px;
+	border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #002e2c;
+    padding: 30px;
+    color: #ffffff;
+}
+
+/*voltar ao topo*/
+#voltar-topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20%;
+    border-bottom: 5px solid #002e2c;
+    border-top: 5px solid #002e2c;
+}
+
+#voltar-topo>a{
+    padding: 20px 80px;
+    font-size: 1.063rem;
+    border-radius: 5px;
+}
+
+#voltar-topo>a:hover{    
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    background-color: #d41313;
+}
+
+/*footer*/
+#rodape{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape > p{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    color: #002e2c;
+}
+head{
+    background-color: #002e2c;
+}.catalogo {
+}

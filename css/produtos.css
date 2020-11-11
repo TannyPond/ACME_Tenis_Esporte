@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+.catalogo{
+	width: 90%;
+}
+#produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-color: #002e2c;
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#produtos figure> figcaption{
+    margin: 20px 0;
+}
+
+#produtos figure > figcaption a{
+    background-color: #002e2c;
+    color: #ffffff;
+    padding: 20px 100px;
+    border-radius: 50px;
+    width: 80%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#produtos figure > figcaption a:hover{
+    background-color: #498467;
+    color: #ffffff;
+    transition: 0.3s all ease;
+}
+
+main figure > img{
+    width: 300px;
+    display: block;
+    
+    margin: 0px 15px 50px 15px;
+}
+
+.galeria{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background-color: #002e2c;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.galeria > div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria > div figcaption{
+    font-size: 18px;
+    background-color: #498467;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 60%;
+}
+
+.galeria > div img{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+label{
+	color: #ffffff;
+}
+
+form{
+    padding: 20px;
+    background-color: #002E2C;
+    width: 100%;
+    margin: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.field{
+    padding: 20px 0 20px 60px;
+    background-color: #498467; 
+    border-radius: 5px;
+    line-height: 24px;
+    margin: 20px;
+    border: none;
+    width: 70%;
+}
+
+form fieldset>legend{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #498467;
+    color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+input{
+    margin-bottom: 10px;
+    size: 100%;
+    line-height: 23px;
+}
+
+.radio{
+    margin-left: 20px;
+}
+
+input[type="submit"]{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding:  20px;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #498467;
+    color: #ffffff;
+}
+
+textarea, input[type="text"]{
+    margin-top: 5px;
+    height: 100%;
+    width: 70%;
+    border-radius: 10px;
+}

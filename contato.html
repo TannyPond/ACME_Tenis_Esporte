@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/png" href="img/ACME_TennisandSport2.png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/home.css">
+		<link rel="stylesheet" href="css/contato.css">
+        <link rel="stylesheet" href="css/media.css">
+
+        <title>ACME Tênis e Esporte</title>
+    </head>
+
+    <body>
+		<noscript>O navegador está com o Javascript desabilitado ou não suporta.</noscript>
+        <div class="acessivel" id="topo">
+            <div>
+                <a href="#topo" accesskey="1">1. Topo</a>
+                <a href="#conteudo" accesskey="2">2. Conteúdo</a>
+                <a href="#rodape" accesskey="3">3. Rodapé</a>
+            </div>
+            
+            <div id="javasc">
+                <a href="#atualizar"  accesskey="4" id="atualizar" onclick="reload();"><img src="img/refresh.png" alt="atualizar página"></a>
+                <em>Tamanho:</em>
+                <a href="#mais_fonte" accesskey="5" id="mais_fonte" onclick="aumentarLetra();"><img src="img/a_mais.png" alt="aumentar fonte"></a>
+                <a href="#menos_fonte" accesskey="6" id="menos_fonte" onclick="diminuirLetra();"><img src="img/a_menos.png" alt="diminuir fonte"></a>
+            </div>
+            
+            <div>
+                <a href="mapa.html" accesskey="7" id="mapa_site">Mapa do Site</a>
+            </div>
+        </div>
+
+        <header>
+            <img src="img/ACME_TennisandSport2.png" alt="ACME Tennis e Sport" id="logo">
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Pagina Inicial</a></li>
+					<li><a href="quem-somos.html">Quem Somos</a></li>
+                    <li><a href="produtos.html">Nossos Produtos</a></li>
+					<li><a href="endereco.html">Nossos Endereços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <aside class="icon-bar">
+            <a href="https://www.facebook.com/acmetennisandsport/" class="facebook"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://wa.me/5513996820269" class="whatsapp"><img src="img/whatsapp.png" alt="Whatsapp"></a>
+            <a href="https://www.instagram.com/acmetennisandsport/" class="instagram"><img src="img/instagram.png" alt="Instagram"></a>
+        </aside>
+
+       
+        <main id="#conteudo">
+            <div class="cabecalho">
+                <h1>Contato</h1>
+            </div>
+            
+            <form action="http://hub.fatecrl.edu.br/sobrino/recebe.php" method="post" target="_blank" autocomplete="on"><!-- Perdão pela cara de pau, kkkk -->
+                <fieldset class="field">
+                    <legend>Dados Pessoais</legend>
+            
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text"  name="nome" id="nome" size="45" maxlength="45" required placeholder="Digite o seu nome completo" autofocus><br>
+                    
+                    <label name="sexo">Sexo:</label><br>
+                    <div class="radio">
+                        <input type="radio" name="rdsexo" id="masculino" value="masculino"  checked="checked">
+                        <label for="masculino">Masculino</label><br>                        
+                        
+                        <input type="radio" name="rdsexo" id="feminino" value="feminino">
+                        <label for="feminino">Feminino</label><br>
+                        
+                        <input type="radio" name="rdsexo" id="outro" value="outro">
+                        <label for="outro">Outro</label><br>
+                    </div>
+                </fieldset>
+                <fieldset class="field">
+                    <legend>Escreva uma mensagem para a nossa equipe!</legend>
+                    
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="3" cols="100" placeholder="Digite a sua mensagem."></textarea>
+                    <br>
+                    <input type="submit" Value="Enviar">
+                </fieldset>
+            </form>
+        </main>
+
+    <div class="borda">
+        <div id="voltar-topo">
+            <a href="#topo">Voltar ao topo</a>
+        </div>
+		</div>
+        <footer id="rodape">
+            <p>Desenvolvido por Stephanie Cunha</p>
+            <br>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

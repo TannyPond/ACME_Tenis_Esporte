@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#mapa{
+    background-color: #002e2c;
+    width: 100%;
+    margin: 20px 10px;
+    border-radius: 5px;
+}
+
+.principal h2{
+    background-color: #498467;
+    color: #ffffff;
+    width: 70%;
+    margin: 10px;
+    text-align: start;
+}
+
+.principal h2:hover{
+    color: #0d0d0d;
+    cursor: pointer;
+}
+
+.sub h3{
+    width: 50%;
+    border-radius: 5px;
+    margin: 10px 100px;
+    padding: 10px;
+    background-color: #498467;
+    cursor: pointer;
+    color: #ffffffc5;
+}
+
+.sub h3:hover{
+    cursor: pointer;
+    color: #0d0d0d;
+}
